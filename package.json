@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "react": "*",
+    "react-tools": "*"
+  },
+  "jest": {
+    "scriptPreprocessor": "./preprocessor.js",
+    "unmockedModulePathPatterns": ["./node_modules/react"]
+  }
+ }
